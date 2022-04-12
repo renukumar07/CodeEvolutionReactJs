@@ -9,9 +9,10 @@ class EventBind extends Component {
     }
   }
   clickHandler() {
-    this.setState({
-      message: 'Goodbye!',
-    })
+    // this.setState({
+    //   message: 'Goodbye!',
+    // })
+    console.log(this)
   }
   render() {
     return (
