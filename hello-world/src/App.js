@@ -1,12 +1,10 @@
 import './App.css'
-import ClassClick from './components/ClassClick'
-import FunctionClick from './components/FunctionClick'
+import EventBind from './components/EventBind'
 
 function App() {
   return (
     <div className="App">
-      <FunctionClick />
-      <ClassClick />
+      <EventBind />
     </div>
   )
 }
